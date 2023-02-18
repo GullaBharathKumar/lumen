@@ -1,31 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Susmitha</title>
-
-    <link rel="stylesheet" href="style.css">
-    <script src="valid.js"></script>
-
-</head>
-<body target="_self">
-    <div class="form">
-        <h1>LOGIN HERE</h1>
-        <p>Email :</p>
-        <input type="Email" name="" placeholder="Email Here">
-        <p>Password :</p>
-        <input type="password" name="" placeholder="Password Here" id="pass">
-        <input type="checkbox" onclick="myfunction()">
-        <input type="submit" name="" value="LOGIN" onclick="validate()">
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Responsive Booking Form</title>
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="form-title">Event Booking</h1>
+      <div class="form">
+      
+        <h1>Email:</h1>
+        <input type="email" name="email" placeholder="Enter Email Here">
+        <h1>Event id:</h1>
+        <input type="event id" name="event id" placeholder="Enter id Here">
+        <h1>Event name:</h1>
+        <input type="text" name="" placeholder="Enter name Here">
+        <h1>Event date:</h1>
+        <input type="text" name="" placeholder="Enter date Here">
+        <h1>Organizer email:</h1>
+        <input type="email" name="" placeholder="Enter email Here">
+        <h1>Organizer phone:</h1>
+        <input type="text" name="" placeholder="Enter name Here">
+        <h1>Event description:</h1>
+        <input type="text" name="" placeholder="Enter description Here">
+        <h1>Event location:</h1>
+        <input type="text" name="" placeholder="Enter location Here">
+      
+        <!-- <div class="event-input-box"> -->
+          <!-- <span class="gender-title"><b><h1>Event timing</h1></b></span> -->
+          <!-- <div class="gender-category"> -->
+            <h1>Event timing</h1>
+            <input type="radio" event type="" id="male">
+            <label for="time">9-12am</label>
+            <input type="radio" name="" id="female">
+            <label for="time">12-3pm</label>
+            <input type="radio" name="" id="other">
+            <label for="time">3-6pm</label>
+        
+      
+        <button class="btn"><a href="#">Book an Event</a></button>
     </div>
-
-    <div>
-        <p id="length"></p>
-    </div>
-
-
-   
-</body>
+  </body>
 </html>
